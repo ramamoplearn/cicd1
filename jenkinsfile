@@ -1,4 +1,5 @@
   pipeline {
+    echo 'Ganesh'
     agent any
 
     tools {
@@ -10,7 +11,7 @@
         stage('Build') {
             steps {
                 
-                echo 'Gannesh'
+                echo 'Ganesh'
                 // Get some code from a GitHub repository
                 git 'https://github.com/jglick/simple-maven-project-with-tests.git'
 
