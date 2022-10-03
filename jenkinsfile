@@ -1,5 +1,5 @@
   pipeline {
-    echo 'Ganesh'
+   
     agent any
 
     tools {
